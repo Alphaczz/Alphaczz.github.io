@@ -8,7 +8,7 @@
     <meta name="author" content="" />
     <title>Timescale - Start Management</title>
     {% load static %}
-    <link rel="icon" type="image/x-icon" href="{%static 'timescale/assets/favicon.ico'%}" />
+    <link rel="icon" type="image/x-icon" href="{%static '/timescale/assets/favicon.ico'%}" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -42,7 +42,7 @@
                     <li class="nav-item"><a class="nav-link" href="logout/">You are logged in as {{request.user}}</a>
                     </li>
                     {% else %}
-                    <li class="nav-item"><a class="nav-link" href="/AdminSignIn">Admin Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/staffallocation/timescale/templates/timescale/AdminSignIn">Admin Login</a></li>
                     <li class="nav-item"><a class="nav-link" href="/index1">Login/SignUp</a></li>
                     {% endif %}
                 </ul>
