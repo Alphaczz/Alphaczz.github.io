@@ -2,4 +2,4 @@ asgiref==3.5.0
 Django==4.0.3
 sqlparse==0.4.2
 whitenoise
-Python==3.9.0
+
